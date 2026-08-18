@@ -2,7 +2,7 @@
 
 A desktop application for Dubai Municipality built with Python and Tkinter (CustomTkinter). It features a login screen and data entry forms that save records to an Excel file (`program_data.xlsx`) on the user's Desktop.
 
-> This project was developed as part of an internship. It was written entirely by hand, before AI coding tools — every line is hand-written code.
+> This project was developed as part of an internship. It was written entirely by hand, before AI coding tools — every line is hand-written code. This was also my first ever python / coding project.
 
 ## Setup
 
