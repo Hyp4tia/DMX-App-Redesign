@@ -1,0 +1,6 @@
+pandas
+Pillow
+customtkinter
+openpyxl
+matplotlib
+fpdf
