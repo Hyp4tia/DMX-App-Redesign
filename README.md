@@ -20,6 +20,20 @@ python main.py
 
 > **Note:** the login screen in the original code uses hardcoded credentials (`ziad` / `dubai`).
 
+## Screenshots
+
+### Rebranded UI (current)
+
+| Login page | Home | First section |
+|------------|------|---------------|
+| ![Login page](screenshots/Login%20page.jpg) | ![Home](screenshots/Home%20jpg.jpg) | ![First section](screenshots/First%20section.jpg) |
+
+### Old UI (before rebranding)
+
+| 1 | 2 | 3 |
+|---|---|---|
+| ![Old UI 1](screenshots/1.JPG) | ![Old UI 2](screenshots/2.JPG) | ![Old UI 3](screenshots/3.JPG) |
+
 ## Files
 
 | File | Description |
