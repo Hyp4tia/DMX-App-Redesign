@@ -8,7 +8,7 @@ from tkinter import messagebox
 import customtkinter as ctk
 
 root = Tk()
-root.title('Dubai Municipality')
+root.title('HR Training Manager')
 root.geometry('1000x600')
 root.resizable(False, False)
 root.attributes('-topmost', True)
@@ -27,13 +27,6 @@ def login():
     labelziad = Label(root, text='Desigend and Created by Zeyad Mohamed', bg='white')
     labelziad.place(relx=0.75, rely=0.95)
 
-    logo_image = Image.open(r"C:\Users\ziadm\Desktop\DMX\unnamed.png")
-    logo_image = logo_image.resize((300, 80))  # Adjust dimensions as needed
-    logo_photo = ImageTk.PhotoImage(logo_image)
-
-    logo_label = Label(root, image=logo_photo, bg='white')
-    logo_label.place(relx=1.0, y=0, anchor='ne')  # Top-right corner
-    logo_label.image = logo_photo
 
     global img
     img = PhotoImage(file=r"C:\Users\ziadm\Desktop\DMX\login.png")
@@ -115,13 +108,6 @@ def main():
                    font=('Microsoft Yahwei UI Light', 17, 'bold'))
     label2.place(relx=0.34, rely=0.2)
 
-    logo_image = Image.open(r"C:\Users\ziadm\Desktop\DMX\unnamed.png")
-    logo_image = logo_image.resize((300, 80))  # Adjust dimensions as needed
-    logo_photo = ImageTk.PhotoImage(logo_image)
-
-    logo_label = Label(root, image=logo_photo, bg='white')
-    logo_label.place(relx=1.0, y=0, anchor='ne')  # Top-right corner
-    logo_label.image = logo_photo
 
     labelziad = Label(root, text='Desigend and Created by Zeyad Mohamed', bg='white')
     labelziad.place(relx=0.75, rely=0.95)
@@ -142,13 +128,6 @@ def open():
     global label3, label4, label5, label6, label7, label18, label19, label19, label20, label21, label22, label23, label24, label25, label26, label27, btn9
     labelziad = Label(root, text='Desigend and Created by Zeyad Mohamed', bg='white')
     labelziad.place(relx=0.75, rely=0.95)
-    logo_image = Image.open(r"C:\Users\ziadm\Desktop\DMX\unnamed.png")
-    logo_image = logo_image.resize((300, 80))  # Adjust dimensions as needed
-    logo_photo = ImageTk.PhotoImage(logo_image)
-
-    logo_label = Label(root, image=logo_photo, bg='white')
-    logo_label.place(relx=1.0, y=0, anchor='ne')  # Top-right corner
-    logo_label.image = logo_photo
     labe3 = Label(root, text='Organisational Units/Needs Gathering', bg='white', font=('bold 15'), padx=10, pady=10,
                   fg='#0A6DD3')
     labe3.pack()
@@ -381,12 +360,6 @@ def open():
         Label_page.place(relx=0.05, rely=0.95)
         labelziad = Label(root, text='Desigend and Created by Zeyad Mohamed', bg='white')
         labelziad.place(relx=0.75, rely=0.95)
-        logo_image = Image.open(r"C:\Users\ziadm\Desktop\DMX\unnamed.png")
-        logo_image = logo_image.resize((300, 80))  # Adjust dimensions as needed
-        logo_photo = ImageTk.PhotoImage(logo_image)
-        logo_label = Label(root, image=logo_photo, bg='white')
-        logo_label.place(relx=1.0, y=0, anchor='ne')  # Top-right corner
-        logo_label.image = logo_photo
         button_back = ttk.Button(root, text='Back', command=back_again)
         button_back.place(relx=0.46, rely=0.93)
 
@@ -399,13 +372,6 @@ def open():
             widget.destroy()
         labelziad = Label(root, text='Desigend and Created by Zeyad Mohamed', bg='white')
         labelziad.place(relx=0.75, rely=0.95)
-        logo_image = Image.open(r"C:\Users\ziadm\Desktop\DMX\unnamed.png")
-        logo_image = logo_image.resize((300, 80))  # Adjust dimensions as needed
-        logo_photo = ImageTk.PhotoImage(logo_image)
-
-        logo_label = Label(root, image=logo_photo, bg='white')
-        logo_label.place(relx=1.0, y=0, anchor='ne')  # Top-right corner
-        logo_label.image = logo_photo
         label24 = Label(root, text='Organisational Units/Needs Gathering', font=('bold 15'), padx=10, pady=10,
                         fg='#0A6DD3', bg='white')
         label24.pack()

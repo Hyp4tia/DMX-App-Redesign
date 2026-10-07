@@ -1,6 +1,6 @@
-# DMX
+# HR Training Manager
 
-A desktop application for Dubai Municipality built with Python and Tkinter (CustomTkinter). It features a login screen and data entry forms that save records to an Excel file (`program_data.xlsx`) on the user's Desktop.
+A desktop application for Dubai Government built with Python and Tkinter (CustomTkinter). It features a login screen and data entry forms that save records to an Excel file (`program_data.xlsx`) on the user's Desktop.
 
 > This project was developed as part of an internship. It was written entirely by hand, before the widespread use of AI coding tools. Every line of code was written manually, with help limited to Google searches and brainstorming. This was also my first-ever Python/coding project.
 
@@ -20,19 +20,25 @@ python main.py
 
 > **Note:** the login screen in the original code uses hardcoded credentials (`ziad` / `dubai`).
 
+## Project cover
+
+![HR Training Manager project cover](screenshots/hr-training-cover.webp)
+
+The cover is an AI-generated illustration of the application. Gallery images below were edited to remove former organizational branding; the application code remains the original hand-written project.
+
 ## Screenshots
 
-### Rebranded UI (current)
+### Application UI (branding removed)
 
 | Login page | Home | First section |
 |------------|------|---------------|
-| ![Login page](screenshots/Login%20page.jpg) | ![Home](screenshots/Home%20jpg.jpg) | ![First section](screenshots/First%20section.jpg) |
+| ![Login page](screenshots/04-signin.webp) | ![Home](screenshots/05-hr-hub.webp) | ![First section](screenshots/06-needs-form.webp) |
 
-### Old UI (before rebranding)
+### Legacy UI (branding removed)
 
 | 1 | 2 | 3 |
 |---|---|---|
-| ![Old UI 1](screenshots/1.JPG) | ![Old UI 2](screenshots/2.JPG) | ![Old UI 3](screenshots/3.JPG) |
+| ![Old UI 1](screenshots/01-legacy-menu.webp) | ![Old UI 2](screenshots/02-legacy-form-filled.webp) | ![Old UI 3](screenshots/03-legacy-form-empty.webp) |
 
 ## Files
 
@@ -45,7 +51,7 @@ python main.py
 
 ## Folder structure
 
-- `assets/` — images and icon used by the app (`unnamed.png`, `login.png`, `happy.png`, `dmx1.png`, `scale.ico`)
+- `assets/` — images and icon used by the app (`login.png`, `happy.png`, `scale.ico`)
 - `docs/` — project documents (PDFs)
 - `screenshots/` — screenshots of the app in use
 

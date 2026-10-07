@@ -84,7 +84,7 @@ except Exception:
     input(f"\nCouldn't create the app window. Full details saved to:\n{LOG_PATH}\nPress Enter to close...")
     sys.exit(1)
 
-root.title('Dubai Municipality')
+root.title('HR Training Manager')
 root.geometry('1000x600')
 root.resizable(False, False)
 root.attributes('-topmost', True)
@@ -109,11 +109,6 @@ def login():
     labelziad = Label(root, text='Desigend and Created by Zeyad Mohamed', bg='white')
     labelziad.place(relx=0.75, rely=0.95)
 
-    logo_photo = load_photo("unnamed.png", (300, 80))
-    if logo_photo:
-        logo_label = Label(root, image=logo_photo, bg='white')
-        logo_label.place(relx=1.0, y=0, anchor='ne')  # Top-right corner
-        logo_label.image = logo_photo
 
     global img
     img = load_photo("login.png")
@@ -191,11 +186,6 @@ def main():
                    font=('Microsoft Yahwei UI Light', 17, 'bold'))
     label2.place(relx=0.34, rely=0.2)
 
-    logo_photo2 = load_photo("unnamed.png", (300, 80))
-    if logo_photo2:
-        logo_label2 = Label(root, image=logo_photo2, bg='white')
-        logo_label2.place(relx=1.0, y=0, anchor='ne')  # Top-right corner
-        logo_label2.image = logo_photo2
 
     labelziad = Label(root, text='Desigend and Created by Zeyad Mohamed', bg='white')
     labelziad.place(relx=0.75, rely=0.95)
@@ -216,11 +206,6 @@ def open_units_page():
     global label3, label4, label5, label6, label7, label18, label19, label19, label20, label21, label22, label23, label24, label25, label26, label27, btn9
     labelziad = Label(root, text='Desigend and Created by Zeyad Mohamed', bg='white')
     labelziad.place(relx=0.75, rely=0.95)
-    logo_photo = load_photo("unnamed.png", (300, 80))
-    if logo_photo:
-        logo_label = Label(root, image=logo_photo, bg='white')
-        logo_label.place(relx=1.0, y=0, anchor='ne')  # Top-right corner
-        logo_label.image = logo_photo
     labe3 = Label(root, text='Organisational Units/Needs Gathering', bg='white', font=('bold 15'), padx=10, pady=10,
                   fg='#0A6DD3')
     labe3.pack()
@@ -453,11 +438,6 @@ def open_units_page():
         Label_page.place(relx=0.05, rely=0.95)
         labelziad = Label(root, text='Desigend and Created by Zeyad Mohamed', bg='white')
         labelziad.place(relx=0.75, rely=0.95)
-        logo_photo = load_photo("unnamed.png", (300, 80))
-        if logo_photo:
-            logo_label = Label(root, image=logo_photo, bg='white')
-            logo_label.place(relx=1.0, y=0, anchor='ne')  # Top-right corner
-            logo_label.image = logo_photo
         button_back = ttk.Button(root, text='Back', command=back_again)
         button_back.place(relx=0.46, rely=0.93)
 
@@ -470,11 +450,6 @@ def open_units_page():
             widget.destroy()
         labelziad = Label(root, text='Desigend and Created by Zeyad Mohamed', bg='white')
         labelziad.place(relx=0.75, rely=0.95)
-        logo_photo = load_photo("unnamed.png", (300, 80))
-        if logo_photo:
-            logo_label = Label(root, image=logo_photo, bg='white')
-            logo_label.place(relx=1.0, y=0, anchor='ne')  # Top-right corner
-            logo_label.image = logo_photo
         label24 = Label(root, text='Organisational Units/Needs Gathering', font=('bold 15'), padx=10, pady=10,
                         fg='#0A6DD3', bg='white')
         label24.pack()
